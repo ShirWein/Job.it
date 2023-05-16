@@ -31,10 +31,10 @@ const Charts = () => {
     // Static Data For Example!!
     useEffect(() => {
         setChartData({
-            labels: ['Saved', 'Applied', 'Interview', 'Offer'],
+            labels: ['Saved', 'Applied', 'Test', 'Interview', 'Offer'],
             datasets: [{
                 label: 'Job Stage',
-                data: [10, 50, 0, 0],
+                data: [10, 50, 1, 0, 0],
                 borderColor: 'rgb(53, 162, 235)',
                 backgroundColor: 'rgb(53, 162, 235, 0.4',
             
