@@ -36,7 +36,7 @@ const Charts = () => {
                 label: 'Job Stage',
                 data: [10, 50, 0, 0],
                 borderColor: 'rgb(53, 162, 235)',
-                backgroundColor: 'rgb(53, 162, 235, 0.4)',
+                backgroundColor: 'rgb(53, 162, 235, 0.4',
             
             }
 
@@ -46,11 +46,11 @@ const Charts = () => {
         setChartOptions({
             plugins: {
                 legend: {
-                    position: 'right',
+                    position: 'top',
                 },
                 title: {
                     display: true,
-                    text: 'Job Stage'
+                    text: 'Job Search By Stage'
                 }
             },
             maintainAspectRatio: false,
@@ -61,9 +61,8 @@ const Charts = () => {
 
   return (
     <>
-        <div className='w-full md:col-span-3 relative lg:h-[70vh] h-[50vh] m-auto p-4 border rounded-lg bg-white'>
+        <div className='w-full md:col-span-2 relative lg:h-[70vh] h-[50vh] m-auto p-4 border rounded-lg bg-white font-bold'>
             <Bar data={chartData} options={chartOptions}/> 
-
         </div>
     </>
   )
