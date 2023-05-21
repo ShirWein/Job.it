@@ -3,6 +3,9 @@ import {AiFillEdit} from 'react-icons/ai';
 import 'react-calendar/dist/Calendar.css';
 import { useState } from 'react';
 import Calendar from 'react-calendar';
+import {FaDollarSign} from 'react-icons/fa';
+import {FcCalendar} from 'react-icons/fc';
+import {FcMoneyTransfer, FcBriefcase} from 'react-icons/fc';
 
 
 const TopCards = () => {
@@ -17,9 +20,9 @@ const TopCards = () => {
                 </div>
                 
                 <div className='flex justify-between pt-4'>
-                    <p className='text-gray-600'>Target Title:</p>
-                    <p className='text-gray-600'>Target Date:</p>
-                    <p className='text-gray-600'>Target Salary Range:</p>
+                    <p className='text-gray-600'><FcBriefcase size={50}/>Target Title:</p>
+                    <p className='text-gray-600'><FcCalendar size={50}/>Target Date:</p>
+                    <p className='text-gray-600'><FcMoneyTransfer size={50}/>Target Salary Range:</p>
                 </div>
                 
             </div>
