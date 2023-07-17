@@ -16,7 +16,7 @@ const tasks = () => {
           <div className='sm:flex hidden items-center justify-end'>
             <div className='bg-[#224957b8] p-2 rounded-lg flex justify-between items-center space-x-2.5'>
               <IoIosAddCircle />
-              <p className='pr-2 font-bold'>Add a New Task_</p>
+              <p className='pr-2 font-bold'>Add a New Task</p>
             </div>
           </div>
           <ul>
